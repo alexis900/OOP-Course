@@ -1,0 +1,3 @@
+class carAdvanced:
+    typeCarAccepted = []
+    seatsMaterial   = []
