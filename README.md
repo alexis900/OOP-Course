@@ -101,4 +101,8 @@ Nunca deberia de ser duplicada la información, ya que se incrementa la dificult
 
 Podemos crear nuevas clases a partir de otras.
 
-Se establece una relación padre e hijo, también llamadas súperclase y subclase. 
+Se establece una relación padre e hijo, también llamadas súperclase y subclase.
+
+### Método constructor
+
+Es un método para dar el estado inicial del objeto, donde tendrá el mismo nombre que la clase. Este tendrá los parámetros mímimos para que el objeto pueda crearse.
