@@ -1,4 +1,4 @@
-function carAdvanced(){
+function AdvancedCar(){
     this.typeCarAccepted;
     this.seatsMaterial;
 }
