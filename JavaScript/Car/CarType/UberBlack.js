@@ -1,4 +1,4 @@
-import AdvancedCar from "./Car/AdvancedCar.js";
+import AdvancedCar from "../AdvancedCar.js";
 
 class UberBlack extends AdvancedCar {
   constructor(license, driver, typeCarAccepted, seatsMaterial) {

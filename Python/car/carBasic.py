@@ -1,4 +1,4 @@
-from car import carº
+from car import car
 
 class carBasic:
     brand = str

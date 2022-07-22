@@ -1,7 +1,7 @@
 package Java.Car;
 import Java.Account;
 
-public class CarBasic extends Car{
+public class CarBasic extends Car {
     String brand;
     String model;
 

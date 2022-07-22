@@ -1,5 +1,6 @@
-package Java;
+package Java.Car.CarType;
 
+import Java.Account;
 import Java.Car.CarBasic;
 
 public class UberX extends CarBasic {
