@@ -1,7 +1,7 @@
 import Account from './Account.js';
-import Car from './Car/Car.js';
+import UberX from './uberX.js'
 
 
-let car = new Car("OTP-123", new Account("Juan", "123.456.789-0"));
+let car = new UberX("OTP-123", new Account("Juan", "123.456.789-0"), 'Opel', 'Corsa');
 car.passagers = 4;
 car.printDataCar();

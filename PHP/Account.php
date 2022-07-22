@@ -6,7 +6,7 @@ class Account {
     public $email;
     public $password;
 
-    public function _construct (string $name, string $document) {
+    public function __construct (string $name, string $document) {
         $this->name = $name;
         $this->document = $document;
     }
