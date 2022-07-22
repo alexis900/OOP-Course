@@ -1,4 +1,4 @@
-function BasicCar() {
-    this.brand;
-    this.model;
+class BasicCar {
+    brand;
+    model;
 }

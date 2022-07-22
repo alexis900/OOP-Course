@@ -1,15 +1,10 @@
+from account import Account
 from car.car import Car
 
 def run():
-    car = Car()
-    car.license = 'ABC123'
-    car.driver = 'Andrés Herrera'
+    car = Car('ABC123', Account('Andrés Herrera', '1234A'))
     print(vars(car))
-
-    car2 = Car()
-    car2.license = 'ANS1246'
-    car2.driver = 'Andrea Herrera'
-    print(vars(car2))
+    print(vars(car.driver))
 
 if __name__ == '__main__':
     run()

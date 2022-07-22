@@ -1,5 +1,5 @@
-function Route(){
-    this.id;
-    this.start;
-    this.end;
+class Route{
+    id;
+    start;
+    end;
 }
