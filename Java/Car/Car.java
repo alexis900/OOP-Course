@@ -1,14 +1,14 @@
 package Java.Car;
 
-import Java.Account;
+import Java.AccountType.Driver;;
 
 public class Car {
     Integer id;
     public String license;
-    public Account driver;
+    public Driver driver;
     public Integer passagers;
 
-    public Car(String license, Account driver) {
+    public Car(String license, Driver driver) {
         this.license = license;
         this.driver = driver;
     }

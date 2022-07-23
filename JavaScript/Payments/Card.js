@@ -1,4 +1,4 @@
-import Payment from '../Payment'
+import Payment from '../Payment.js'
 
 class Card extends Payment {
     constructor(id, number, cvv, date){

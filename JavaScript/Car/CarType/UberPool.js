@@ -1,4 +1,4 @@
-import BasicCar from "./Car/BasicCar.js";
+import BasicCar from "../BasicCar.js";
 
 class UberPool extends BasicCar {
   constructor(license, driver, brand, model) {

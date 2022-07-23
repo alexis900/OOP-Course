@@ -1,4 +1,4 @@
-import Payment from '../Payment'
+import Payment from '../Payment.js'
 
 class Cash extends Payment{
     constructor(id){

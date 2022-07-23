@@ -1,4 +1,4 @@
-import Payment from '../Payment'
+import Payment from '../Payment.js'
 
 class PayPal extends Payment {
     constructor(id, email){

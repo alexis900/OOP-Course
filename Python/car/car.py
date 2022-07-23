@@ -1,9 +1,9 @@
-from account import Account
+from accountype.driver import Driver
 
 class Car:
     id          = int
     license     = str
-    driver      = Account("","")
+    driver      = Driver('', '', '')
     passagers   = int
 
     def __init__(self, license, driver):

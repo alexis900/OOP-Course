@@ -1,10 +1,9 @@
 package Java.Car.CarType;
-
-import Java.Account;
+import Java.AccountType.Driver;
 import Java.Car.CarBasic;
 
 public class UberX extends CarBasic {
-    public UberX(String license, Account driver, String brand, String model) {
+    public UberX(String license, Driver driver, String brand, String model) {
         super(license, driver, brand, model);
     }
 }

@@ -1,16 +1,22 @@
 <?php
-require_once('Account.php');
+require_once('./AccountType/Driver.php');
 require_once('./Car/CarTypes/uberX.php');
 require_once('./Car/CarTypes/UberPool.php');
 require_once('Payments/Card.php');
 
-$uberX = new UberX('XYZ1234', new Account('Alejandro Martin', '1234Z'), 'Opel', 'Corsa');
+
+$driver1 = new Driver('Alejandro Martin', '1234Z', 'driver1@uber.net', true);
+$uberX = new UberX('XYZ1234', $driver1, 'Opel', 'Corsa');
 $uberX->printDataCar();
+$driver1->printDataUser();
 
-$uberPool = new UberPool('ZAQ3455', new Account('Laura Hernandez', '4830K'), 'Porche', 'Chayan');
+$driver2 = new Driver('Laura Hernandez', '4830K', 'driver2@uber.net', false);
+$uberPool = new UberPool('ZAQ3455', $driver2, 'Porche', 'Chayan');
 $uberPool->printDataCar();
+$driver2->printDataUser()
 
-$payment = new Card(1, 1234567891233, 123, '12/22');
+//$payment = new Card(1, 1234567891233, 123, '12/22');
+
 ?>
 
 <!DOCTYPE html>
@@ -22,8 +28,5 @@ $payment = new Card(1, 1234567891233, 123, '12/22');
     <title>Document</title>
 </head>
 <body>
-    <?php foreach ($payment as $key => $value) {
-        echo $value .'\n';
-    }?>
 </body>
 </html>

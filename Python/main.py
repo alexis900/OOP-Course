@@ -1,12 +1,12 @@
-from account import Account
+from accountype.driver import Driver
 from car.car import Car
-from payments.cash import cash
 from payments.paypal import paypal
 
 def run():
-    car = Car('ABC123', Account('Andrés Herrera', '1234A'))
+    driver1 = Driver('Andrés Herrera', '1234A', 'driver1@uber.net', True)
+    car = Car('ABC123', driver1)
     print(vars(car))
-    print(vars(car.driver))
+    print(vars(driver1))
 
     met = paypal(1, 'email@email.com')
     print(vars(met))
