@@ -15,4 +15,8 @@ public class CarAdvanced extends Car{
         this.seatsMaterial = seatsMaterial;
     }
 
+    public CarAdvanced(String license, Driver driver) {
+        super(license, driver);
+    }
+
 }

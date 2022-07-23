@@ -106,3 +106,11 @@ Se establece una relación padre e hijo, también llamadas súperclase y subclas
 ### Método constructor
 
 Es un método para dar el estado inicial del objeto, donde tendrá el mismo nombre que la clase. Este tendrá los parámetros mímimos para que el objeto pueda crearse.
+
+### Encapsulamiento
+
+El **encapsulamento** es hacer que un dato sea inviolable, analterable cuando se le asigne un **modificador de acceso**. public permite acceder por cualquier elemento. protected podrá ser accedido a nivel de la clase. default permite acceso a clases y paquetes, no se puede ver en la herencia. private solamente podrá ser accedido a nivel de clases.
+
+### Polimorfismo
+
+Construir métodos con el mismo nombre pero con comportamientos diferentes.
